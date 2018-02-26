@@ -1,0 +1,59 @@
+Line 122: Class MSComCtl2.DTPicker of control tgl_masuk was not a loaded control class.
+Line 136: Class MSComctlLib.ListView of control lv2 was not a loaded control class.
+Line 264: Class MSComctlLib.ImageList of control ImageList1 was not a loaded control class.
+Line 438: Class MSComctlLib.ListView of control lv1 was not a loaded control class.
+Line 505: Class MSComctlLib.ProgressBar of control Bar1 was not a loaded control class.
+Line 128: The property name _ExtentX in tgl_masuk is invalid.
+Line 129: The property name _ExtentY in tgl_masuk is invalid.
+Line 130: The property name _Version in tgl_masuk is invalid.
+Line 131: The property name CheckBox in tgl_masuk is invalid.
+Line 132: The property name CustomFormat in tgl_masuk is invalid.
+Line 133: The property name Format in tgl_masuk is invalid.
+Line 134: The property name CurrentDate in tgl_masuk is invalid.
+Line 142: The property name _ExtentX in lv2 is invalid.
+Line 143: The property name _ExtentY in lv2 is invalid.
+Line 144: The property name View in lv2 is invalid.
+Line 145: The property name LabelEdit in lv2 is invalid.
+Line 146: The property name Sorted in lv2 is invalid.
+Line 147: The property name MultiSelect in lv2 is invalid.
+Line 148: The property name LabelWrap in lv2 is invalid.
+Line 149: The property name HideSelection in lv2 is invalid.
+Line 150: The property name AllowReorder in lv2 is invalid.
+Line 151: The property name FullRowSelect in lv2 is invalid.
+Line 152: The property name GridLines in lv2 is invalid.
+Line 153: The property name HotTracking in lv2 is invalid.
+Line 154: The property name HoverSelection in lv2 is invalid.
+Line 155: The property name _Version in lv2 is invalid.
+Line 169: The property name NumItems in lv2 is invalid.
+Line 173: The property name ColumnHeader(1) in lv2 is invalid.
+Line 178: The property name ColumnHeader(2) in lv2 is invalid.
+Line 183: The property name ColumnHeader(3) in lv2 is invalid.
+Line 267: The property name _ExtentX in ImageList1 is invalid.
+Line 268: The property name _ExtentY in ImageList1 is invalid.
+Line 270: The property name ImageWidth in ImageList1 is invalid.
+Line 271: The property name ImageHeight in ImageList1 is invalid.
+Line 272: The property name MaskColor in ImageList1 is invalid.
+Line 273: The property name _Version in ImageList1 is invalid.
+Line 436: The property name Images in ImageList1 is invalid.
+Line 444: The property name _ExtentX in lv1 is invalid.
+Line 445: The property name _ExtentY in lv1 is invalid.
+Line 446: The property name View in lv1 is invalid.
+Line 447: The property name LabelEdit in lv1 is invalid.
+Line 448: The property name Sorted in lv1 is invalid.
+Line 449: The property name MultiSelect in lv1 is invalid.
+Line 450: The property name LabelWrap in lv1 is invalid.
+Line 451: The property name HideSelection in lv1 is invalid.
+Line 452: The property name AllowReorder in lv1 is invalid.
+Line 453: The property name FullRowSelect in lv1 is invalid.
+Line 454: The property name GridLines in lv1 is invalid.
+Line 455: The property name HotTracking in lv1 is invalid.
+Line 456: The property name HoverSelection in lv1 is invalid.
+Line 457: The property name _Version in lv1 is invalid.
+Line 471: The property name NumItems in lv1 is invalid.
+Line 475: The property name ColumnHeader(1) in lv1 is invalid.
+Line 480: The property name ColumnHeader(2) in lv1 is invalid.
+Line 485: The property name ColumnHeader(3) in lv1 is invalid.
+Line 490: The property name ColumnHeader(4) in lv1 is invalid.
+Line 511: The property name _ExtentX in Bar1 is invalid.
+Line 512: The property name _ExtentY in Bar1 is invalid.
+Line 513: The property name _Version in Bar1 is invalid.

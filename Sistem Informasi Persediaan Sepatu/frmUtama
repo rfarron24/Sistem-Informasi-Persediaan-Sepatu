@@ -1,0 +1,441 @@
+VERSION 5.00
+Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCTL.OCX"
+Object = "{00025600-0000-0000-C000-000000000046}#4.6#0"; "crystl32.ocx"
+Begin VB.MDIForm frmUtama 
+   BackColor       =   &H80000001&
+   Caption         =   $"frmUtama.frx":0000
+   ClientHeight    =   6345
+   ClientLeft      =   165
+   ClientTop       =   210
+   ClientWidth     =   10050
+   LinkTopic       =   "MDIForm1"
+   MousePointer    =   1  'Arrow
+   StartUpPosition =   2  'CenterScreen
+   WindowState     =   2  'Maximized
+   Begin VB.Timer Timer1 
+      Interval        =   100
+      Left            =   8640
+      Top             =   600
+   End
+   Begin VB.PictureBox Picture1 
+      Align           =   1  'Align Top
+      BackColor       =   &H8000000C&
+      Height          =   135
+      Left            =   0
+      ScaleHeight     =   75
+      ScaleWidth      =   9990
+      TabIndex        =   1
+      Top             =   570
+      Width           =   10050
+   End
+   Begin MSComctlLib.StatusBar StatusBar1 
+      Align           =   2  'Align Bottom
+      Height          =   375
+      Left            =   0
+      TabIndex        =   0
+      Top             =   5970
+      Width           =   10050
+      _ExtentX        =   17727
+      _ExtentY        =   661
+      _Version        =   393216
+      BeginProperty Panels {8E3867A5-8586-11D1-B16A-00C0F0283628} 
+         NumPanels       =   4
+         BeginProperty Panel1 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
+            Object.Width           =   8017
+            MinWidth        =   8017
+         EndProperty
+         BeginProperty Panel2 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
+            Style           =   5
+            Alignment       =   1
+            TextSave        =   "7:12 AM"
+         EndProperty
+         BeginProperty Panel3 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
+            Style           =   6
+            TextSave        =   "2/15/2007"
+         EndProperty
+         BeginProperty Panel4 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
+            Object.Width           =   45050
+            MinWidth        =   45050
+         EndProperty
+      EndProperty
+   End
+   Begin MSComctlLib.Toolbar Toolbar1 
+      Align           =   1  'Align Top
+      Height          =   570
+      Left            =   0
+      TabIndex        =   2
+      Top             =   0
+      Width           =   10050
+      _ExtentX        =   17727
+      _ExtentY        =   1005
+      ButtonWidth     =   847
+      ButtonHeight    =   953
+      Appearance      =   1
+      Style           =   1
+      ImageList       =   "ImageList1"
+      DisabledImageList=   "ImageList1"
+      HotImageList    =   "ImageList1"
+      _Version        =   393216
+   End
+   Begin MSComctlLib.ImageList ImageList1 
+      Left            =   9360
+      Top             =   1920
+      _ExtentX        =   1005
+      _ExtentY        =   1005
+      BackColor       =   -2147483643
+      ImageWidth      =   25
+      ImageHeight     =   25
+      MaskColor       =   12632256
+      _Version        =   393216
+      BeginProperty Images {2C247F25-8591-11D1-B16A-00C0F0283628} 
+         NumListImages   =   24
+         BeginProperty ListImage1 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":00DA
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage2 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":0138
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage3 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":0196
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage4 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":01F4
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage5 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":0252
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage6 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":02B0
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage7 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":030E
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage8 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":036C
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage9 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":03CA
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage10 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":0428
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage11 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":0486
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage12 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":04E4
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage13 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":0542
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage14 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":05A0
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage15 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":05FE
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage16 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":065C
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage17 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":06BA
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage18 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":0718
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage19 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":0776
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage20 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":07D4
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage21 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":0832
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage22 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":0890
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage23 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":08EE
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage24 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmUtama.frx":094C
+            Key             =   ""
+         EndProperty
+      EndProperty
+   End
+   Begin Crystal.CrystalReport Crpt1 
+      Left            =   0
+      Top             =   0
+      _ExtentX        =   741
+      _ExtentY        =   741
+      _Version        =   262150
+   End
+   Begin VB.Menu mnuinput 
+      Caption         =   "&File"
+      Begin VB.Menu mnu01 
+         Caption         =   "Salesman"
+      End
+      Begin VB.Menu mnu02 
+         Caption         =   "Buku"
+      End
+      Begin VB.Menu mnu03 
+         Caption         =   "Pelanggan"
+      End
+      Begin VB.Menu mnu4 
+         Caption         =   "Pemesanan"
+      End
+      Begin VB.Menu mnu05 
+         Caption         =   "Pengiriman"
+      End
+      Begin VB.Menu mnu06 
+         Caption         =   "Pembayaran"
+      End
+      Begin VB.Menu mnu07 
+         Caption         =   "Petugas"
+      End
+      Begin VB.Menu mnu08 
+         Caption         =   "Mobil"
+      End
+   End
+   Begin VB.Menu mnuedit 
+      Caption         =   "Edit"
+      Begin VB.Menu mnu10 
+         Caption         =   "Salesman"
+      End
+      Begin VB.Menu mnu112 
+         Caption         =   "Buku"
+      End
+      Begin VB.Menu mnu11 
+         Caption         =   "Pelanggan"
+      End
+      Begin VB.Menu mnu12 
+         Caption         =   "Pemesanan"
+      End
+      Begin VB.Menu mnu13 
+         Caption         =   "Pengiriman"
+      End
+      Begin VB.Menu mnu14 
+         Caption         =   "Pembayaran"
+      End
+      Begin VB.Menu mnu15 
+         Caption         =   "Petugas"
+      End
+      Begin VB.Menu Mnu16 
+         Caption         =   "Mobil"
+      End
+   End
+   Begin VB.Menu mnulap 
+      Caption         =   "Laporan"
+      Begin VB.Menu a1 
+         Caption         =   "Laporan Pemesanan Buku"
+      End
+      Begin VB.Menu a2 
+         Caption         =   "Laporan Pengiriman Buku"
+      End
+      Begin VB.Menu sdbg 
+         Caption         =   "Laporan Pelanggan"
+      End
+      Begin VB.Menu hbs 
+         Caption         =   "Laporan Buku/ Pelanggan"
+      End
+      Begin VB.Menu a3 
+         Caption         =   "Laporan Petugas/ Buku dan Salesman"
+      End
+   End
+   Begin VB.Menu qsys 
+      Caption         =   "Keluar"
+   End
+End
+Attribute VB_Name = "frmUtama"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+ 
+ 
+
+ 
+ 
+
+ 
+
+Private Sub a1_Click()
+With Crpt1
+                         .DataFiles(0) = App.Path & "\Database\db.Mdb"
+                         .ReportFileName = "D:\R125_PROGRAM\Laporan\biodata.rpt"
+                         .RetrieveDataFiles
+                         .WindowState = crptMaximized
+                         .Action = 2
+ End With
+End Sub
+
+ 
+
+ 
+
+Private Sub a4_Click()
+frmLapDisposisiBln.Show
+End Sub
+
+ 
+
+ 
+
+ 
+
+Private Sub gg78445_Click()
+frmHpsUsulan.Show
+End Sub
+
+Private Sub hbs_Click()
+frmLapUsulanThn.Show
+End Sub
+
+Private Sub ierw_Click()
+frmUbahDisposisi.Show
+End Sub
+
+ 
+
+Private Sub MDIForm_Activate()
+StatusBar1.Panels(4).Text = " System is Ready "
+End Sub
+
+Private Sub MDIForm_DblClick()
+Unload Me
+End Sub
+
+Private Sub MDIForm_Load()
+Connect
+End Sub
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+Private Sub MDIForm_MouseDown(Button As Integer, Shift As Integer, X As Single, Y As Single)
+If Button = 2 Then
+   PopupMenu mnuedit
+End If
+End Sub
+
+Private Sub mn6656_Click()
+frmHpsPegawai.Show
+End Sub
+
+Private Sub mn7556_Click()
+frmHpsPegawai.Show
+End Sub
+
+Private Sub mnu01_Click()
+tbh_gol.Show
+End Sub
+
+Private Sub mnu02_Click()
+tbh_penggajian.Show
+End Sub
+
+ 
+  
+ 
+
+ 
+
+Private Sub mnu10_Click()
+frmUbahBiodata.Show
+End Sub
+
+Private Sub mnu11_Click()
+frmUbahPegawai.Show
+End Sub
+
+ 
+
+Private Sub mnuabsklr_Click()
+tbh_abs_klr.Show
+End Sub
+
+Private Sub mnuabsmsk_Click()
+tbh_abs_msk.Show
+End Sub
+
+Private Sub mnucuti_Click()
+tbh_cuti.Show
+End Sub
+
+Private Sub mnujab_Click()
+tbh_jabatan.Show
+End Sub
+
+Private Sub mnukeg_Click()
+tbh_keg.Show
+End Sub
+
+Private Sub mnupeg_Click()
+tbh_pegawai.Show
+End Sub
+
+ 
+
+Private Sub qsys_Click()
+ reply = MsgBox("Apakah Anda akan Keluar dari Sistem?", vbQuestion + vbYesNo, "Konfirmasi")
+                 If reply = vbYes Then
+                    End
+                 End If
+End Sub
+ 
+
+Private Sub sdbg_Click()
+frmLapUsulanBln.Show
+End Sub
+
+ 
+
+Private Sub Timer1_Timer()
+Me.Caption = Right$(Me.Caption, Len(Me.Caption) - 1) + Left$(Me.Caption, 1)
+StatusBar1.Panels(1) = Format(Date, "dd mmmm yyyy")
+StatusBar1.Panels(2) = Format(Time, "hh:mm:ss")
+End Sub
+
+ 
+  

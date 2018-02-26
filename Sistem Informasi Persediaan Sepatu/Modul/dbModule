@@ -1,0 +1,68 @@
+Attribute VB_Name = "dbModule"
+Public cn As New ADODB.Connection
+Public rsBarang As New ADODB.Recordset
+Public rsPemasok As New ADODB.Recordset
+Public rsRs As New ADODB.Recordset
+Public rsPelanggan As New ADODB.Recordset
+Public rsPengadaan As New ADODB.Recordset
+Public rsPenJualan As New ADODB.Recordset
+ 
+Public ladd As Boolean
+Public ledit As Boolean
+Public Isitext As String
+Public cTgl, cBln, cThn As String
+Public strSQL As String
+Public SQlSimpan As String
+Public SQLHapus As String
+Public SQLUpdate As String
+
+Public Sub Dither(frm As Form)
+   Dim intLoop As Integer                       ' Counter
+   frm.DrawStyle = vbInsideSolid
+   frm.DrawMode = 13
+   frm.ScaleMode = vbPixels
+   frm.DrawWidth = 13
+   frm.ScaleWidth = 256
+   For intLoop = 0 To 255
+      frm.Line (intLoop, 0)-(intLoop - 1, Screen.Height), RGB(0, intLoop, intLoop), B
+   Next intLoop
+End Sub
+
+Public Sub Connect()
+    Set cn = New ADODB.Connection
+    cn.ConnectionString = "Provider =Microsoft.Jet.OLEDB.3.51.0;" & _
+                          "Data Source=" & App.Path & "\Database\Barang.mdb"
+    cn.Open
+End Sub
+
+ Public Sub PesanSudahAda(frm As Form)
+ MsgBox "Data sudah ada!", vbCritical, "Data Suda Ada"
+ End Sub
+ Public Sub PesanKosong(frm As Form)
+ MsgBox "Data tidak boleh kosong!", vbCritical, "Data Kosong"
+  
+ End Sub
+ Public Sub PesanSimpan(frm As Form)
+ MsgBox "Data sudah disimpan!", vbInformation, "Simpan Data"
+ End Sub
+  Public Sub PesanUpdate(frm As Form)
+ MsgBox "Data sudah di-update!", vbInformation, "Update Data"
+ End Sub
+ Public Sub IsiDataText1()
+     Isitext = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz.,"
+ End Sub
+Public Sub IsiDataText2()
+     Isitext = "0123456789"
+End Sub
+Public Sub IsiDataText3()
+     Isitext = "()-0123456789"
+End Sub
+ 
+
+ 
+
+
+
+ 
+            
+   
